@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Pedidos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1><i class="fas fa-clipboard-list"></i> Painel de Pedidos</h1>
+    <button class="new-order-btn"><i class="fas fa-plus"></i> Novo Pedido</button>
+</header>
+
+<div class="status-bar">
+    <button class="status-btn active"><i class="fas fa-inbox"></i> Recebido</button>
+    <button class="status-btn"><i class="fas fa-check-circle"></i> Pronto</button>
+    <button class="status-btn"><i class="fas fa-truck"></i> Despachado</button>
+    <button class="status-btn"><i class="fas fa-store"></i> No Estabelecimento</button>
+    <button class="status-btn"><i class="fas fa-route"></i> Em Rota</button>
+    <button class="status-btn"><i class="fas fa-thumbs-up"></i> Aceito</button>
+    <button class="status-btn"><i class="fas fa-user"></i> No Cliente</button>
+    <button class="status-btn"><i class="fas fa-times-circle"></i> Cancelado</button>
+    <button class="status-btn"><i class="fas fa-box-open"></i> Entregue</button>
+</div>
+
+<div class="order-section">
+    <h2><i class="fas fa-box"></i> Recebido</h2>
+    <div class="order-card">
+        <p><strong>Cliente:</strong> Felipe Getenerski</p>
+        <p><strong>Destino:</strong> Rua Paraíso A, Nossa Senhora Da Paz - Balneário Piçarras/SC</p>
+        <div class="actions">
+            <button class="edit-btn"><i class="fas fa-edit"></i> Editar</button>
+            <button class="delete-btn"><i class="fas fa-trash-alt"></i> Remover</button>
+        </div>
+    </div>
+
+    <h2><i class="fas fa-box"></i> Pronto</h2>
+    <div class="order-card">
+        <p><strong>Cliente:</strong> Murilo</p>
+        <p><strong>Destino:</strong> Rua 56, 184, Jardim Goiás - Goiânia/GO</p>
+        <div class="actions">
+            <button class="edit-btn"><i class="fas fa-edit"></i> Editar</button>
+            <button class="delete-btn"><i class="fas fa-trash-alt"></i> Remover</button>
+        </div>
+    </div>
+
+    <h2><i class="fas fa-box"></i> Aceito</h2>
+    <div class="order-card">
+        <p><strong>Cliente:</strong> José</p>
+        <p><strong>Destino:</strong> R. Dr. Boureau, Costa Azul - Salvador/BA</p>
+        <div class="actions">
+            <button class="edit-btn"><i class="fas fa-edit"></i> Editar</button>
+            <button class="delete-btn"><i class="fas fa-trash-alt"></i> Remover</button>
+        </div>
+    </div>
+</div>
+  <script>script.js</script>
+</body>
+</html>
